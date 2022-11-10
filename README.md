@@ -1,4 +1,4 @@
-# Heaven's door
+# Heaven's door v0.1
 telegram bot for control your VPN connection
 Can be used for Wireguard VPN for control users, their time online and their connection.
 ## Intalling
