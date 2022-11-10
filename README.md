@@ -1,6 +1,6 @@
 # Heaven's door v0.1
-telegram bot for control your VPN connection
-Can be used for Wireguard VPN for control users, their time online and their connection.
+telegram bot to control your VPN connection
+Can be used for Wireguard VPN to control users, their online time and their connection.
 ## Intalling
 
 Install the sqlite:
@@ -9,7 +9,7 @@ Install the sqlite:
 Install database:
   ```./setup.py```
 
-Add Telegram API Token in config file .bot_token
+Add Telegram API Token to config file .bot_token
   ```echo -n "TOKEN" > .bot_token```
 
 ## Using
@@ -21,7 +21,7 @@ Add Telegram API Token in config file .bot_token
   show_users - show all users table. 
   block_user *** - block user if it's possible, check the status table. 
   unblock_user *** - unblock user if it's possible, check the status table. 
-  check_connection - show connections of *all* or by tg id. 
+  check_connection - show connections of *all users* or by tg id. 
   add_new_user *name*:*ip*:*tg* - add new user in database. 
   remove_user *ip* - remove user from database by ip
   ```
